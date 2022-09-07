@@ -1,0 +1,59 @@
+/*--------------------------------------------------
+# Site Footer
+----------------------------------*/
+
+.site-footer {
+    min-height: 10vh;
+    width: 100%;
+    padding: 4rem;
+    /* color: var(); */
+}
+
+/* .container{
+
+    padding: 5em 0;
+    background: #333333
+} */
+
+
+.site-footer .sub-section-title{    
+    font-size: var(--h5);
+    text-align: center;
+    display: block;
+
+}
+
+.learning-content{
+    display: flex;
+    margin: auto;
+    /* justify-content: space-around; */
+
+
+}
+
+
+.learning-content ol {
+    margin: auto;
+
+}
+
+@media screen and (max-width: 40rem) {
+    .learning-content{
+        display: block;
+    }
+}
+
+.learning-content ol {
+    margin-bottom: 2rem;
+
+}
+
+
+.copyright {
+    text-align: center;
+    color: var(--color-yellow);
+    position: absolute;
+    bottom: 0;
+    height: 36px;
+    width: 100%;
+}
